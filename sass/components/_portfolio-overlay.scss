@@ -1,0 +1,30 @@
+.portf__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(101%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: $portf-card-bg-color;
+
+  color: $white-text-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.555;
+  letter-spacing: 0.03em;
+}
+
+.portf__link:hover .portf__overlay,
+.portf__link:focus .portf__overlay {
+  transform: translateY(0);
+}
+
+.portf__overlay--posirion {
+  text-align: left;
+  padding-right: 24px;
+  padding-left: 24px;
+}
