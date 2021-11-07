@@ -2,33 +2,39 @@
 @import './utils/variables';
 @import './utils/visual-hiden';
 @import './utils/global-settings';
+@import './utils/container';
+@import './utils/breakpoints';
+@import './utils/mixin';
+@import './components/section/section';
 // HEADER
-@import './components/container';
-@import './components/header-container';
-@import './components/nav';
-@import './components/logo';
-@import './components/contacts';
+@import './components/header/header-container';
+@import './components/header/contacts';
+@import './components/header/logo';
+@import './components/header/nav';
+// mobile-menu
+@import './components/mobile-menu/mobile-menu';
+@import './components/mobile-menu/mobile-socblok';
 // hero section
-@import './components/hero';
-@import './components/button';
+@import './components/hero/button';
+@import './components/hero/hero';
 // features section
-@import './components/features';
+@import './components/features/features';
 // Work section
-@import './components/work';
+@import './components/work/work';
 // Team section
-@import './components/team';
-@import './components/team-sociallink';
-// Clients section
-@import './components/clients';
+@import './components/team/team';
+@import './components/team/team-soclink';
+// Clietns section
+@import './components/clients/clients';
 // footer section
-@import './components/footer';
-@import './components/footer-sociallink';
-@import './components/footer-signup-form';
+@import './components/footer/footer';
+@import './components/footer/footer-soclink';
+@import './components/footer/footer-signup-form';
 // PORTFOLIO
-@import './components/menu';
-@import './components/portf-items';
-@import './components/portfolio-overlay';
+@import './components/portfolio/portf-menu';
+@import './components/portfolio/portf-items';
+@import './components/portfolio/portfolio-overlay';
 // FORM
-@import './components/modal';
-@import './components/form';
-@import './components/form-checkbox';
+@import './components/modal/modal';
+@import './components/modal/form';
+@import './components/modal/form-checkbox';

@@ -37,8 +37,6 @@ ul {
 .list {
   list-style: none;
   padding-inline-start: 0;
-  display: flex;
-  justify-content: center;
 }
 
 .link {
@@ -53,4 +51,6 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
